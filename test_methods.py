@@ -18,7 +18,7 @@ def test_methods():
 	values,k = tester.value_iteration(env, gamma=0.99)
 	print(values,k)
 
-	policy,values,i,j = tester.policy_iteration(env, gamma=0.99)  # Run Value Iteration
+	policy,values,i,j = tester.policy_iteration(env, gamma=0.99)  
 	print(values, i,j)
 	print(policy)
 
